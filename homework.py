@@ -87,7 +87,7 @@ def main():
     bot = telegram.Bot(token=TELEGRAM_TOKEN)
     timestamp = int(time.time())
     hwrk_status_old = ""
-    error_message_old =""
+    error_message_old = ""
 
     while True:
         try:
